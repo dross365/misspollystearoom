@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 95px;
+  background-color: #c4b9cd;
+  color: #faf3e0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+header li {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+#logo-name {
+  font-size: 1.5rem;
+}
+
+#logo-name a {
+  text-decoration: none;
+  color: #faf3e0;
+}
+
+#temp-box img {
+  width: 70px;
+  height: auto;
+}
+
+#long-logo{
+  width: 400px;
+  margin: 40px auto;
+}
+
+.background-container {
+  position: relative;
+  /* background-image: url('../media/background-image.jpg');
+  background-size: cover;
+  background-position: center; */
+  height: 80vh;
+  background-color: gray; /*remove when background image is uploaded*/
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/*UNCOMMENT WHEN BACKGROUND IMAGE IS UPLOADED!!!*/
+/* .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 1;
+} */
+
+.content {
+  position: relative;
+  z-index: 2;
+  padding: 1rem;
+}
+
+.title-support {
+  font-size: 1.5625rem;
+  line-height: 1.2px;
+  margin-top: 10px;
+}
+
+.title {
+  font-size: 3.75rem;
+  font-weight: 900;
+  margin-top: 60px;
+}
+
+.bottom-text {
+  font-size: 1.5625rem;
+}
+
+.social-icons {
+  display: flex;
+  margin: 40px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons ul li {
+  padding: 20px;
+}
+
+.fa-instagram-main {
+  /* adjust as needed */
+  background: radial-gradient(circle at 67% 0%,
+      #fed373 0%,
+      #f15245 7%,
+      #d92e7f 35%,
+      #9b36b7 65%,
+      #515ecf 100%);
+
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-brands {
+  font-size: 60px;
+}
+
+.fa-facebook {
+  color: #1877f2;
+}
+
+
+i {
+  font-size: 2rem;
+}
+
+footer {
+  background-color: #d8a7b1;
+  height: 119px;
+}
+
+.content-container {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.footer-right {
+  display: flex;
+}
+
+.footer-right ul li {
+  padding-left: 40px;
+}
+
+.footer-icon {
+  color: black;
+  font-size: 2rem;
+}
+
+/* @media only screen and (max-width: 700px) {
+  .title-support {
+    margin-top: 100px;
+  }
+} */
