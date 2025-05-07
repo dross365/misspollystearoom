@@ -39,7 +39,7 @@ header li {
   color: #faf3e0;
 }
 
-#temp-box img {
+#header-logo img {
   width: 70px;
   height: auto;
 }
@@ -164,6 +164,10 @@ footer {
 }
 
 @media only screen and (max-width: 770px) {
+  #header-logo img {
+    width: 50px;
+  }
+
   #logo-name {
     font-size: 1.25rem;
   }
@@ -201,5 +205,47 @@ footer {
 
   .bottom-text {
     font-size: 1.2rem;
+  }
+
+  .footer-icon {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-height: 1000px) {
+  #header-logo img {
+    width: 50px;
+  }
+
+  .fa-brands {
+    font-size: 40px;
+  }
+
+  .footer-icon {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-height: 730px) {
+  #header-logo img {
+    width: 40px;
+  }
+
+  h1.title {
+    font-size: 2rem;
+  }
+
+  main {
+    min-height: 600px;
+    max-height: 800px;
+  }
+
+  header {
+    min-height: 50px;
+  }
+
+  #long-logo{
+    width: 300px;
+    margin: 40px auto;
   }
 }
