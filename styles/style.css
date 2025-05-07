@@ -40,7 +40,7 @@ header li {
 }
 
 #header-logo img {
-  width: 70px;
+  max-width: 70px;
 }
 
 #long-logo{
@@ -164,7 +164,7 @@ footer {
 
 @media only screen and (max-width: 770px) {
   #header-logo img {
-    width: 50px;
+    max-width: 50px;
   }
 
   #logo-name {
@@ -199,7 +199,7 @@ footer {
 
 @media only screen and (max-width: 550px) {
   #header-logo img {
-    width: 50px;
+    max-width: 50px;
   }
 
   h1.title {
@@ -217,7 +217,7 @@ footer {
 
 @media only screen and (max-height: 1000px) {
   #header-logo img {
-    width: 50px;
+    max-width: 50px;
   }
 
   .fa-brands {
@@ -231,7 +231,7 @@ footer {
 
 @media only screen and (max-height: 730px) {
   #header-logo img {
-    width: 40px;
+    max-width: 40px;
   }
 
   h1.title {
