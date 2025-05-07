@@ -14,7 +14,7 @@ html {
 header {
   display: flex;
   align-items: center;
-  height: 95px;
+  height: 8vh;
   background-color: #c4b9cd;
   color: #faf3e0;
 }
@@ -124,7 +124,7 @@ header li {
 }
 
 .fa-brands {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .fa-facebook {
@@ -138,7 +138,7 @@ i {
 
 footer {
   background-color: #d8a7b1;
-  height: 119px;
+  height: 12vh;
 }
 
 .content-container {
@@ -163,8 +163,43 @@ footer {
   font-size: 2rem;
 }
 
-/* @media only screen and (max-width: 700px) {
-  .title-support {
-    margin-top: 100px;
+@media only screen and (max-width: 770px) {
+  #logo-name {
+    font-size: 1.25rem;
   }
-} */
+
+  h1.title {
+    font-size: 2.75rem;
+  }
+
+  .title-support {
+    display: none;
+  }
+
+  #long-logo{
+    width: 300px;
+    margin: 40px auto;
+  }
+
+  .bottom-text {
+    font-size: 1.4rem;
+  }
+
+  .fa-brands {
+    font-size: 40px;
+  }
+
+  .footer-icon {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  h1.title {
+    font-size: 2rem;
+  }
+
+  .bottom-text {
+    font-size: 1.2rem;
+  }
+}
