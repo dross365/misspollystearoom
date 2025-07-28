@@ -192,6 +192,42 @@ i {
   font-size: 2rem;
 }
 
+.reserve-btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  min-width: 130px;
+  height: 40px;
+  padding: 0 15px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #c4b9cd;
+  box-shadow: 0 5px #c4b9cd;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reserve-btn:hover {
+  box-shadow: 0 3px #d8a7b1;
+  top: 1px;
+}
+.reserve-btn:active {
+  box-shadow: 0 0 #d8a7b1;
+  top: 5px;
+}
+
+.reserve-btn:hover,
+.reserve-btn:active {
+  color: white;
+  text-decoration: none;
+}
+
 header,
 footer {
   position: relative;
