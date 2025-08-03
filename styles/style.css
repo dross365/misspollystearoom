@@ -6,6 +6,19 @@
   box-sizing: border-box;
 }
 
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: black;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 html {
   font-size: 16px;
   font-family: "Lato", sans-serif;
@@ -364,6 +377,7 @@ i {
   border-radius: 15px;
   font-size: 20px;
   border: none;
+  text-decoration: none;
 }
 
 .multiple-teas-section {
